@@ -217,7 +217,7 @@ const FormDienNguoiDung = () => {
           position: absolute;
           top: 81%;
           left: 44.5%;
-          width: 52%;
+          width: 36%;
           bottom: 2%;
           display: flex;
           flex-direction: column;
@@ -226,7 +226,7 @@ const FormDienNguoiDung = () => {
           overflow: hidden;
         }
         .preview-name {
-          color: #FFD700;
+          color: #fff;
           font-weight: 700;
           font-size: clamp(7px, 1.8cqw, 15px);
           text-transform: uppercase;
@@ -372,7 +372,7 @@ const FormDienNguoiDung = () => {
 
           <div style={{ flex: 1, overflowY: 'auto', padding: '16px 18px' }}>
             <div style={{ marginBottom: 16 }}>
-              <div style={sectionTitleStyle}>Ảnh đại biểu</div>
+              <div style={sectionTitleStyle}>Ảnh cá nhân</div>
               <div
                 onClick={() => fileInputRef.current?.click()}
                 style={{
@@ -424,7 +424,7 @@ const FormDienNguoiDung = () => {
                       📷
                     </div>
                     <div>
-                      <div style={{ fontSize: 12, fontWeight: 600, color: '#3b6fa0' }}>Tải lên ảnh đại biểu</div>
+                      <div style={{ fontSize: 12, fontWeight: 600, color: '#3b6fa0' }}>Tải lên ảnh cá nhân</div>
                       <div style={{ fontSize: 10, color: '#7eafd4' }}>Cắt tròn tự động</div>
                     </div>
                   </>
