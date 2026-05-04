@@ -236,9 +236,9 @@ const FormDienNguoiDung = () => {
           white-space: normal;
         }
         .preview-chucvu {
-          color: #FFD700;
+          color: #fff;
           font-style: normal;
-          font-size: clamp(6px, 1.55cqw, 13.5px);
+          font-size: clamp(8px, 1.7cqw, 18px);
           line-height: 1.35;
           margin: 0;
           word-break: break-word;
@@ -250,8 +250,7 @@ const FormDienNguoiDung = () => {
           line-height: 1.75;
           word-break: break-word;
           text-align: justify;
-          text-align: justify;        
-          text-indent: 2em; 
+          text-align: justify;         
           margin: 0;
         }
         @media (max-width: 768px) {
@@ -336,7 +335,7 @@ const FormDienNguoiDung = () => {
             textTransform: 'uppercase'
           }}
         >
-          CHÀO MỪNG ĐẠI HỘI ĐẠI BIỂU HỘI LIÊN HIỆP THANH NIÊN VIỆT NAM TỈNH HƯNG YÊN — LẦN THỨ I, NHIỆM KỲ 2026-2029
+          CHÀO MỪNG ĐẠI HỘI ĐẠI BIỂU HỘI LIÊN HIỆP THANH NIÊN VIỆT NAM TỈNH HƯNG YÊN LẦN THỨ I, NHIỆM KỲ 2026 - 2029
         </div>
       </div>
 
@@ -474,13 +473,13 @@ const FormDienNguoiDung = () => {
               <textarea
                 placeholder='Viết lời nhắn, thông điệp gửi tới Đại hội...'
                 rows={6}
-                maxLength={600}
+                maxLength={500}
                 value={formData.loiNhan}
                 onChange={(e) => setFormData({ ...formData, loiNhan: e.target.value })}
                 style={{ ...inputStyle, resize: 'none', lineHeight: 1.65 }}
               />
               <div style={{ textAlign: 'right', fontSize: 10, color: '#7eafd4', marginTop: 4 }}>
-                {formData.loiNhan.length} / 600
+                {formData.loiNhan.length} / 500
               </div>
             </div>
           </div>
