@@ -473,13 +473,13 @@ const FormDienNguoiDung = () => {
               <textarea
                 placeholder='Viết lời nhắn, thông điệp gửi tới Đại hội...'
                 rows={6}
-                maxLength={500}
+                maxLength={450}
                 value={formData.loiNhan}
                 onChange={(e) => setFormData({ ...formData, loiNhan: e.target.value })}
                 style={{ ...inputStyle, resize: 'none', lineHeight: 1.65 }}
               />
               <div style={{ textAlign: 'right', fontSize: 10, color: '#7eafd4', marginTop: 4 }}>
-                {formData.loiNhan.length} / 500
+                {formData.loiNhan.length} / 450
               </div>
             </div>
           </div>
